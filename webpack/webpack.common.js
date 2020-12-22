@@ -9,8 +9,10 @@ module.exports = {
   },
   output: {
     path: Path.join(__dirname, '../build'),
-    filename: 'js/[name].js'
-  },
+    filename: 'js/[name].js',
+    library: '[name]',
+    libraryTarget: 'var'
+    },
   optimization: {
     splitChunks: {
       chunks: 'all',

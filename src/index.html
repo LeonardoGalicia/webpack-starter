@@ -8,5 +8,44 @@
 <body>
   <h1>webpack starter</h1>
   <p>✨ A lightweight foundation for your next webpack based frontend project.</p>
+  <table>
+   <thead>
+    <tr>
+      <th>Name</th>
+      <th>Last name</th>
+      <th>Age</th>
+      <th>bio</th>
+      <th>greeting</th>
+    </tr>
+   </thead>
+   <tbody id="tabla">
+
+   </tbody>
+  </table>
+  <input type= “text” id="nombre" name="nombre">
+  <input type= “text” id="app" name="app">
+  <input type= “text” id="edad" name="edad">
+  <br><br>
+  <button onclick="app.checkPromise()">Actualizar</button>
+  <button onclick="app.addInicio()">Agregar al inicio</button>
+  <button onclick="app.addFin()">Agregar al fin</button>
+  <button onclick="app.eliminarInicio()">Eliminar al inicio</button>
+  <button onclick="app.eliminarFin()">Eliminar al fin</button><br><br>
+  <input type="text" id="edadF" name="edadF">
+  <button onclick="app.filtrarEdad()">Filtar</button>
+  <table>
+    <thead>
+     <tr>
+       <th>Name</th>
+       <th>Last name</th>
+       <th>Age</th>
+       <th>bio</th>
+      <th>greeting</th>
+     </tr>
+    </thead>
+    <tbody id="tf">
+ 
+    </tbody>
+   </table>
 </body>
 </html>
